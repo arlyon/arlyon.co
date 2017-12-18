@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Alexander's Blog"
+author = "Alexander Lyon"
+theme = "CAPSLOCK"
+
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsOptions="linenos=inline"
+pygmentsStyle="bw"

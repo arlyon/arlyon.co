@@ -1,0 +1,3 @@
+[submodule "themes/CAPSLOCK"]
+	path = themes/CAPSLOCK
+	url = https://github.com/arlyon/CAPSLOCK.git
