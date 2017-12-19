@@ -1,5 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
+language = "en"
 title = "Alexander's Blog"
 author = "Alexander Lyon"
 theme = "CAPSLOCK"
@@ -8,3 +9,4 @@ sectionPagesMenu = "main"
 pygmentsCodeFences = true
 pygmentsOptions="linenos=inline"
 pygmentsStyle="bw"
+paginate=2

@@ -1,12 +1,9 @@
 ---
 title: "Eratosthenes"
-date: 2017-12-18T15:03:32Z
+date: 2017-12-19T12:46:20Z
 draft: true
-tags: ["Development", "Algorithms"]
-category: ["Example"]
+tags: ["gist", "code"]
+category: ["Gists"]
+user: "arlyon"
+gist: "0d90932adcb5a8a05b0bb6fa21518a04"
 ---
-
-{{< gist arlyon 0d90932adcb5a8a05b0bb6fa21518a04 >}}
-
-This gist is a simple infinite generator written in python
-to show a very pythonic way of sifting primes.
