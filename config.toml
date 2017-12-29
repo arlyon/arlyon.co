@@ -9,11 +9,13 @@ author = "Alexander Lyon"
 theme = "CAPSLOCK"
 
 #googleAnalytics = ""
+enableGitInfo=true
 sectionPagesMenu = "main"
 pygmentsOptions = "linenos=inline"
 pygmentsStyle = "bw"
 
 [params]
+    description = "Some stories and guides that I find useful or interesting."
     show_read_time = true
     show_contact_in_head = true
     show_contact_in_footer = true
