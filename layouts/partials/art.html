@@ -1,22 +1,22 @@
 {{ "<!--" | safeHTML }}
-
-
       ___           ___           ___       ___           ___           ___
      /\  \         /\  \         /\__\     |\__\         /\  \         /\__\
     /::\  \       /::\  \       /:/  /     |:|  |       /::\  \       /::|  |
    /:/\:\  \     /:/\:\  \     /:/  /      |:|  |      /:/\:\  \     /:|:|  |
   /::\~\:\  \   /::\~\:\  \   /:/  /       |:|__|__   /:/  \:\  \   /:/|:|  |__
  /:/\:\ \:\__\ /:/\:\ \:\__\ /:/__/        /::::\__\ /:/__/ \:\__\ /:/ |:| /\__\
- \/__\:\/:/  / \/_|::\/:/  / \:\  \       /:/~~/~    \:\  \ /:/  / \/__|:|/:/  /
+ \/__\:\/:/  / \/_|::\/:/  / \:\  \       /::___/__/ \:\  \ /:/  / \/__|:|/:/  /
       \::/  /     |:|::/  /   \:\  \     /:/  /       \:\  /:/  /      |:/:/  /
       /:/  /      |:|\/__/     \:\  \    \/__/         \:\/:/  /       |::/  /
      /:/  /       |:|  |        \:\__\                  \::/  /        /:/  /
      \/__/         \|__|         \/__/                   \/__/         \/__/
 
 
-     repo available here: https://www.github.com/arlyon/arlyon.co
-     theme available here: https://www.github.com/arlyon/CAPSLOCK
-     last commit hash: {{ .GitInfo.AbbreviatedHash }}
+         repo: https://www.github.com/arlyon/arlyon.co
+         theme: https://www.github.com/arlyon/CAPSLOCK{{ if .IsPage }}
 
-
+         updated: {{ .GitInfo.AuthorDate.Format "Jan 1, 2006 15:04:05" }}
+         hash: {{ .GitInfo.AbbreviatedHash }}
+         author: {{ .GitInfo.AuthorName }}
+         comment: {{ .GitInfo.Subject }}{{ end }}
 {{ "-->" | safeHTML }}
