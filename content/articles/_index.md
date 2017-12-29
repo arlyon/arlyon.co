@@ -1,9 +1,2 @@
-# All the articles go here.
-
-```js
-async function () {
-  const test = 5;
-  return test;
-}
-
-```
+These are some useful documents written up for both referring to later, and for their potential
+usefulness.

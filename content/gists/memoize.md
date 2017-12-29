@@ -7,3 +7,6 @@ category: ["Gists"]
 user: "arlyon"
 gist: "81761f01165fa73b262cf5540cfc818e"
 ---
+
+# Hello this is a memoized function.
+
