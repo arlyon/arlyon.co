@@ -2,6 +2,8 @@
 title: "Getting Started With ZSH"
 date: 2017-12-20T14:14:32Z
 draft: true
+tags: ["ZSH", "Terminal"]
+categories: ["Guide"]
 ---
 
 The following is a small story of my switch to zsh, followed up by my dotfiles management. I decided I needed to

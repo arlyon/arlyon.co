@@ -3,10 +3,34 @@ languageCode = "en-us"
 language = "en"
 title = "Alexander's Blog"
 author = "Alexander Lyon"
+
+# Theme Settings
+
 theme = "CAPSLOCK"
 
+#googleAnalytics = ""
 sectionPagesMenu = "main"
-pygmentsCodeFences = true
-pygmentsOptions="linenos=inline"
-pygmentsStyle="bw"
-paginate=2
+pygmentsOptions = "linenos=inline"
+pygmentsStyle = "bw"
+
+[params]
+    show_read_time = true
+    show_contact_in_head = true
+    show_contact_in_footer = true
+    fontawesome_sets = ["brands", "solid"]
+    copyright = "no monkeys (or typewriters) were harmed in the making of this site"
+
+[[params.contact]]
+    icon_type = "fab"
+    icon_name = "github"
+    link = "https://www.github.com/arlyon/"
+
+[[params.contact]]
+    icon_type = "fab"
+    icon_name = "twitter"
+    link = "https://www.twitter.com/_arlyon/"
+
+[[params.contact]]
+    icon_type = "fas"
+    icon_name = "envelope"
+    link = "mailto:arlyon@me.com"
