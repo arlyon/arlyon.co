@@ -8,7 +8,8 @@ author = "Alexander Lyon"
 
 theme = "CAPSLOCK"
 
-#googleAnalytics = ""
+googleAnalytics = "UA-111745454-1"
+enableRobotsTXT=true
 enableGitInfo=true
 sectionPagesMenu = "main"
 pygmentsOptions = "linenos=inline"
