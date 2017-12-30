@@ -1,7 +1,7 @@
 ---
 title: "Getting Started With ZSH"
 date: 2017-12-20T14:14:32Z
-draft: true
+draft: false
 tags: ["ZSH", "Terminal"]
 categories: ["Guide"]
 ---
@@ -35,4 +35,14 @@ echo "[ -x "$(command -v zsh)" ] && exec zsh -l" >> .bash_profile
 
 ## Packages
 
-With `zsh` enabled, you can now start to get acquainted. One of the strengths o
+With `zsh` enabled, you can now start to get acquainted. One of the great things of zsh are the many package managers
+available for it, some examples of which being `oh-my-zsh`, `prezto` and `antigen`. My personal favorite is antigen,
+because of how easy it is to define packages, and how unobtrusive it is. To get started with antigen you simply have to
+download the script and source it from your newly created `.zshrc`.
+
+```bash
+curl -L git.io/antigen > antigen.zsh
+echo "source PATH_TO_ANTIGEN/antigen.zsh" >> ~/.zshrc
+```
+
+Then you can start adding packages.

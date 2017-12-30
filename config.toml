@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.arlyon.co/"
 languageCode = "en-us"
 language = "en"
 title = "Alexander's Blog"
@@ -18,22 +18,35 @@ pygmentsStyle = "bw"
 [params]
     description = "Some stories and guides that I find useful or interesting."
     show_read_time = true
-    show_contact_in_head = true
+    show_contact_in_head = false
     show_contact_in_footer = true
-    fontawesome_sets = ["brands", "solid"]
+    fontawesome_sets = ["brands"]
     copyright = "no monkeys (or typewriters) were harmed in the making of this site"
 
 [[params.contact]]
     icon_type = "fab"
     icon_name = "github"
     link = "https://www.github.com/arlyon/"
+    text = "GH"
 
 [[params.contact]]
     icon_type = "fab"
     icon_name = "twitter"
     link = "https://www.twitter.com/_arlyon/"
+    text = "TW"
 
-[[params.contact]]
-    icon_type = "fas"
-    icon_name = "envelope"
-    link = "mailto:arlyon@me.com"
+[outputs]
+    home = [ "HTML", "RSS", "HEADERS" ]
+    page = [ "HTML" ]
+
+[mediaTypes]
+    [mediaTypes."text/netlify"]
+    suffix = ""
+    delimiter = ""
+
+[outputFormats]
+    [outputFormats.HEADERS]
+    mediatype = "text/netlify"
+    baseName = "_headers"
+    isPlainText = true
+    notAlternative = true
