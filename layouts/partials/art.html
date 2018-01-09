@@ -15,8 +15,8 @@
          repo: https://www.github.com/arlyon/arlyon.co
          theme: https://www.github.com/arlyon/CAPSLOCK{{ if .IsPage }}
 
-         updated: {{if (isset .GitInfo "AuthorDate") }}{{ .GitInfo.AuthorDate.Format "Jan 1, 2006 15:04:05" }}{{ else }}na{{ end }}
-         hash: {{if (isset .GitInfo "AbbreviatedHash") }}{{ .GitInfo.AbbreviatedHash }}{{ else }}na{{ end }}
-         author: {{if (isset .GitInfo "AuthorName") }}{{ .GitInfo.AuthorName }}{{ else }}na{{ end }}
-         comment: {{if (isset .GitInfo "Subject") }}{{ .GitInfo.Subject }}{{ else }}na{{ end }}{{ end }}
+         updated: {{ .GitInfo.AuthorDate.Format "Jan 2, 2006 15:04:05" }}
+         hash: {{ .GitInfo.AbbreviatedHash }}
+         author: {{ .GitInfo.AuthorName }}
+         comment: {{ .GitInfo.Subject }}{{ end }}
 {{ "-->" | safeHTML }}
