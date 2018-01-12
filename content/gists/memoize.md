@@ -6,6 +6,9 @@ tags: ["gist", "code"]
 categories: ["Gists"]
 user: "arlyon"
 gist: "81761f01165fa73b262cf5540cfc818e"
+# last two are used in schema.org/SoftwareSourceCode
+language: "Python"
+runtime: "Python 3.6"
 ---
 
 This simple decorator can significantly speed up recursive functions in python

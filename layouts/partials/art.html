@@ -13,10 +13,13 @@
 
 
          repo: https://www.github.com/arlyon/arlyon.co
-         theme: https://www.github.com/arlyon/CAPSLOCK{{ if .IsPage }}
+         theme: https://www.github.com/arlyon/CAPSLOCK{{ with .GitInfo }}
 
-         updated: {{ .GitInfo.AuthorDate.Format "Jan 2, 2006 15:04:05" }}
-         hash: {{ .GitInfo.AbbreviatedHash }}
-         author: {{ .GitInfo.AuthorName }}
-         comment: {{ .GitInfo.Subject }}{{ end }}
+         {{.}}
+
+         {{ with .AuthorDate }}updated: {{ .Format "Jan 2, 2006 15:04:05" }}{{ end }}
+         {{ with .AbbreviatedHash }}hash: {{ . }}{{ end }}
+         {{ with .AuthorName }}author: {{ . }}{{ end }}
+         {{ with .Subject }}comment: {{ . }}{{ end }}
+         {{ end }}
 {{ "-->" | safeHTML }}

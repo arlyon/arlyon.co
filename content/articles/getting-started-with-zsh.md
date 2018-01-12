@@ -82,7 +82,7 @@ The last plugin on in the list brings syntax highlighting to the terminal which 
 see if a command exists before even running it. Very useful.
 
 ## Wrapping Up
-
+t a
 A final feature antigen boasts is the ability to apply themes, through the `antigen theme` command. The theme I use is
 [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) which is a fairly robust 2-line command line with
 a whole load of features. Its quite straight forward, and needs a bit of tweaking and testing to see what you like. When

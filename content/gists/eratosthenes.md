@@ -6,6 +6,9 @@ tags: ["gist", "code"]
 categories: ["Gists"]
 user: "arlyon"
 gist: "0d90932adcb5a8a05b0bb6fa21518a04"
+# last two are used in schema.org/SoftwareSourceCode
+language: "Python"
+runtime: "Python 3.6"
 ---
 
 This is a really elegant and pythonic solution to the sieve of eratosthenes.
