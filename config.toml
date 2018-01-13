@@ -1,7 +1,7 @@
 baseURL = "https://blog.arlyon.co/"
 languageCode = "en-us"
 language = "en"
-title = "Alexander's Blog"
+title = "Alexander Lyon's Blog"
 author = "Alexander Lyon"
 
 # Theme Settings
@@ -16,7 +16,7 @@ pygmentsOptions = "linenos=inline"
 pygmentsStyle = "bw"
 
 [params]
-    description = "Some stories and guides that I find useful or interesting."
+    description = "Useful explanations, code snippets, and projects gathered from a wide range of areas in computer science."
     show_read_time = true
     show_contact_in_head = false
     show_contact_in_footer = true

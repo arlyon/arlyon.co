@@ -15,8 +15,6 @@
          repo: https://www.github.com/arlyon/arlyon.co
          theme: https://www.github.com/arlyon/CAPSLOCK{{ with .GitInfo }}
 
-         {{.}}
-
          {{ with .AuthorDate }}updated: {{ .Format "Jan 2, 2006 15:04:05" }}{{ end }}
          {{ with .AbbreviatedHash }}hash: {{ . }}{{ end }}
          {{ with .AuthorName }}author: {{ . }}{{ end }}
