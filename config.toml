@@ -8,9 +8,9 @@ author = "Alexander Lyon"
 
 theme = "CAPSLOCK"
 
-googleAnalytics = "UA-111745454-1"
-enableRobotsTXT=true
-enableGitInfo=true
+googleAnalytics = "UA-55373202-3"
+enableRobotsTXT = true
+enableGitInfo = true
 sectionPagesMenu = "main"
 pygmentsOptions = "linenos=inline"
 pygmentsStyle = "bw"
