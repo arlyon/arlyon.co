@@ -18,7 +18,7 @@ pygmentsStyle = "bw"
 [params]
     description = "Useful explanations, code snippets, and projects gathered from a wide range of areas in computer science."
     show_read_time = true
-    service_worker = true
+    service_worker = false
     show_contact_in_head = false
     show_contact_in_footer = true
     fontawesome_sets = ["brands"]

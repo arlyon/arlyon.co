@@ -1,9 +1,14 @@
 ---
-title: "Composing Serializers With DRF"
-date: 2018-04-01T11:52:06+01:00
+title: "Composing Serializers With Drf"
+date: 2018-04-01T12:17:09+01:00
 draft: false
-tags: [python, django, rest, meta]
-categories: [python, django]
+tags: ["gist", "code", "python", "drf"]
+categories: ["Gists"]
+user: "arlyon"
+gist: "59e2f580bd523196791500002750ca8c"
+# last two are used in schema.org/SoftwareSourceCode
+language: "Python"
+runtime: "Python 3.6"
 ---
 
 Django Rest Framework provides a fast way to build APIs, expressing them as a set of serializers and views. I recently
@@ -39,30 +44,63 @@ information in the Meta class, saving some headache and keeping things nice and 
 
 For reference, here are our old serializers:
 
+#### serializers.py
+
 ```python
 from rest_framework.serializers import ModelSerializer
 
 class ItemSerializer(ModelSerializer):
     class Meta:
         model: Item
-        fields: ('name', 'item_id', 'store_price')
+        fields: ('name', 'item_id', 'description')
+
+class ItemPriceSerializer(ModelSerializer):
+
+    price = SerializerMethodField()
+
+    def get_price(item):
+        ...
+
+    class Meta:
+        fields = ('name', 'item_id', 'description', 'price')
 
 class ItemFavoriteSerializer(ModelSerializer):
     class Meta:
         model: Item
-        fields: ('name', 'item_id', 'store_price', 'favorite')
+        fields: ('name', 'item_id', 'description', 'favorite')
+
+class ItemPriceFavoriteSerializer(ItemPriceSerializer):
+    class Meta:
+        model: Item
+        fields: ('name', 'item_id', 'description', 'favorite', 'price')
 ```
 
 Even in this simple example, there is a good deal of repetition. By composing them together we can condense the
-`ItemFavoriteSerializer` to the following snippet:
+the last three serializers down considerably:
+
+#### serializers.py (new)
 
 ```python
 @composed_serializer
-class ItemFavoriteSerializer(ItemSerializer)
+class ItemPriceSerializer(ItemSerializer):
+
+    price = SerializerMethodField()
+
+    def get_price(item):
+        ...
+
+    class Meta:
+        fields: ('price',)
+
+@composed_serializer
+class ItemFavoriteSerializer(ItemSerializer):
     class Meta:
         fields: ('favorite',)
+
+@composed_serializer
+class ItemPriceFavoriteSerializer(ItemPriceSerializer, ItemFavoriteSerializer):
+    pass
 ```
 
-Now, any changes to the parent will be reflected in the child. Beautiful. The decorator is available in
-[this gist](https://gist.github.com/arlyon/59e2f580bd523196791500002750ca8c).
+Now, any changes to the parents will be reflected in the child. Beautiful.
 
