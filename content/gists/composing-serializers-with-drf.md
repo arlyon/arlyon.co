@@ -102,5 +102,8 @@ class ItemPriceFavoriteSerializer(ItemPriceSerializer, ItemFavoriteSerializer):
     pass
 ```
 
-Now, any changes to the parents will be reflected in the child. Beautiful.
+The decorator works by combining the Meta class for each of the parent serializers as well as adding the fields defined
+in the Meta for the child class. Additionally, all the behaviour from normal python inheritance applies such as
+the function defined in the `ItemPriceSerializer`. Now, any changes to the parents will be correctly reflected in the
+child. Beautiful
 
