@@ -18,20 +18,19 @@ homebrew, or through most package managers. Now, to use it as your default shell
 
 ### a) edit `/etc/shells` and `chsh -s`
 
-```bash
-echo $(which zsh) >> /etc/shells
-chsh -s $(which zsh)
-```
+This option directly changes the shell your user loads into.
+
+    echo $(which zsh) >> /etc/shells
+    chsh -s $(which zsh)
     
 ### b) add zsh to your `.profile` 
 
-This script checks for the existence of zsh and runs it
+This snippet checks for the existence of zsh and runs it
 meaning it can be synced across machines and run when zsh is available.
+Useful for situations where you don't have priveleges.
 
-```bash
-cd ~
-echo "[ -x "$(command -v zsh)" ] && exec zsh -l" >> .bash_profile
-```    
+    cd ~
+    echo "[ -x "$(command -v zsh)" ] && exec zsh -l" >> .bash_profile
 
 ## Packages
 
@@ -40,10 +39,10 @@ available for it, some examples of which being `oh-my-zsh`, `prezto` and `antige
 because of how easy it is to define packages, and how unobtrusive it is. To get started with antigen you simply have to
 download the script and source it from your newly created `.zshrc`.
 
-```bash
-curl -L git.io/antigen > antigen.zsh
-echo "source PATH_TO_ANTIGEN/antigen.zsh" >> ~/.zshrc
-```
+
+    curl -L git.io/antigen > antigen.zsh
+    echo "source PATH_TO_ANTIGEN/antigen.zsh" >> ~/.zshrc
+
 
 With antigen added to your zshrc, you can start using antigen packages. Antigen lets you download packages straight from
 github, simply by running the command `antigen bundle USER/REPO`. Additionally, antigen can use all the packages from 
@@ -82,36 +81,38 @@ The last plugin on in the list brings syntax highlighting to the terminal which 
 see if a command exists before even running it. Very useful.
 
 ## Wrapping Up
-t a
+
 A final feature antigen boasts is the ability to apply themes, through the `antigen theme` command. The theme I use is
 [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) which is a fairly robust 2-line command line with
 a whole load of features. Its quite straight forward, and needs a bit of tweaking and testing to see what you like. When
 you have chosen your configuration of choice, the last command to run is `antigen apply`.
 
 Here is my complete configuration:
-    
-    # --- ANTIGEN ---
-    source $HOME/antigen.zsh
-    
-    # Load the oh-my-zsh's library.
-    antigen use oh-my-zsh
-    
-    # Bundles from the default repo (robbyrussell's oh-my-zsh).
-    antigen bundle git
-    antigen bundle heroku
-    antigen bundle pip
-    
-    # Bundles from elsewhere in git.
-    antigen bundle zsh-users/zsh-autosuggestions # autosuggests
-    antigen bundle chrissicool/zsh-256color # sets the $TERM correctly
-    # antigen bundle MichaelAquilina/zsh-you-should-use # reminds you that there is an alias
-    antigen bundle zsh-users/zsh-syntax-highlighting # Syntax highlighting
-    
-    # Load the theme.
-    antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
-    
-    # Tell Antigen that you're done.
-    antigen apply
+
+```bash
+# --- ANTIGEN ---
+source $HOME/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle heroku
+antigen bundle pip
+
+# Bundles from elsewhere in git.
+antigen bundle zsh-users/zsh-autosuggestions # autosuggests
+antigen bundle chrissicool/zsh-256color # sets the $TERM correctly
+# antigen bundle MichaelAquilina/zsh-you-should-use # reminds you that there is an alias
+antigen bundle zsh-users/zsh-syntax-highlighting # Syntax highlighting
+
+# Load the theme.
+antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
+
+# Tell Antigen that you're done.
+antigen apply
+```
 
 To start heading down the rabbit hole, have a look at [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins)
 which includes an exhaustive list of plugins for zsh, and lastly, happy zsh-ing.

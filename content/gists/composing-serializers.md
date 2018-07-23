@@ -15,7 +15,7 @@ Django Rest Framework provides a fast way to build APIs, expressing them as a se
 ran into a case where I wanted user-specific data to be included when a user is authenticated, but default to the
 generic serializer in all other cases.
 
-#### /api/v1/items/2 (anonymous)
+### /api/v1/items/2 (anonymous)
 
 ```json
 {
@@ -25,7 +25,7 @@ generic serializer in all other cases.
 }
 ```
 
-#### /api/v1/items/2 (authenticated)
+### /api/v1/items/2 (authenticated)
 
 ```json
 {
@@ -44,7 +44,7 @@ information in the Meta class, saving some headache and keeping things nice and 
 
 For reference, here are our old serializers:
 
-#### serializers.py
+### serializers.py
 
 ```python
 from rest_framework.serializers import ModelSerializer
@@ -78,7 +78,7 @@ class ItemPriceFavoriteSerializer(ItemPriceSerializer):
 Even in this simple example, there is a good deal of repetition. By composing them together we can condense the
 the last three serializers down considerably:
 
-#### serializers.py (new)
+### serializers.py (new)
 
 ```python
 @composed_serializer
@@ -105,5 +105,5 @@ class ItemPriceFavoriteSerializer(ItemPriceSerializer, ItemFavoriteSerializer):
 The decorator works by combining the Meta class for each of the parent serializers as well as adding the fields defined
 in the Meta for the child class. Additionally, all the behaviour from normal python inheritance applies such as
 the function defined in the `ItemPriceSerializer`. Now, any changes to the parents will be correctly reflected in the
-child. Beautiful
+child. Simple.
 

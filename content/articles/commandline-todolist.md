@@ -53,10 +53,8 @@ provide. One such thing is cron, a job scheduler that lets you run commands at g
 Since all the data is in a single file, it is trivial to keep it on google drive, syncthing or some other equivalent 
 cloud storage solution keep the data synced across multiple devices.
 
-```bash
-mv ./.todos.json ~/googledrive/.todos.json
-ln -s ~/googledrive/.todos.json ./.todos.json
-```
+    mv ./.todos.json ~/googledrive/.todos.json
+    ln -s ~/googledrive/.todos.json ./.todos.json
 
 ### piping with grep or jq
 
@@ -65,6 +63,6 @@ Additionally, to get some stats about your todo list you could invoke the very u
 For example, here's a simple command to see the total number of completed tasks. Adding these to your bash/zsh profile
 makes it really easy to get an overview over your todolist when you open a new terminal session.
 
-```bash
-cat ~/.todos.json | jq '. | map(select(.completed == true)) | length' | xargs echo "Tasks Completed:" 
-```
+
+    cat ~/.todos.json | jq '. | map(select(.completed == true)) | length' | xargs echo "Tasks Completed:"
+

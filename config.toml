@@ -12,8 +12,10 @@ googleAnalytics = "UA-55373202-3"
 enableRobotsTXT = true
 enableGitInfo = true
 sectionPagesMenu = "main"
-pygmentsOptions = "linenos=inline"
+pygmentsOptions = "linenos=table"
 pygmentsStyle = "bw"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
 
 [params]
     description = "Useful explanations, code snippets, and projects gathered from a wide range of areas in computer science."
@@ -44,7 +46,7 @@ pygmentsStyle = "bw"
 
 [mediaTypes]
     [mediaTypes."text/netlify"]
-    suffix = ""
+    suffixes = [""]
     delimiter = ""
 
 [outputFormats]
