@@ -39,8 +39,12 @@ a loved one).
 ## Weaknesses
  
 - you are complacent. your ability to see the joy in anything makes it very easy to
-  come up with reasons why this is good enough. You can do better.
-- you are subconsciously agreeable. you should not be agreeable with everyone.
+  come up with reasons why this is good enough. you can do better.
+- you are subconsciously agreeable. being stoic is not being a pushover, and you
+  should not try to agree with everyone.
+- you struggle to build attachment. you can quickly make good friends, are funny, 
+  respectable, but rarely miss people or worry if you are away from them. always 
+  be aware of (and compensate for) this.
 
 ## Core Invariants
 
@@ -104,7 +108,7 @@ relationships are built on respect, attraction, or both.
   - remove the filter and say whatever comes to mind (focus instead on healthy thoughts)
   - unabashedly do the things you enjoy (as long as it does not bother others)
   - make (well-informed) opinions and respectfully vocalize them in detail.
-  - speak louder, slower, more passionately, and minimize [speech disfluency](https://en.wikipedia.org/wiki/Speech_disfluency)
+  - speak louder, slower, more passionately, and minimize [speech disfluency](https://en.wikipedia.org/wiki/Speech_disfluency).
   - use your chest voice when you speak. as a rule you should be able to pinch your nose
   and have no change in tonality.
 - elicit emotion:
@@ -139,7 +143,7 @@ Alex, friction ended your last (7 year) relationship.
 Find the right woman:
 
 1. Uninstall tinder.
-2. What values do I want in a woman? That traits do I rate highly? What deal-breakers do I have?
+2. What values do I want in a woman? What traits do I rate highly? What deal-breakers do I have?
 3. Where can I meet women similar to the ones I like?
 4. What do I enjoy doing the most?
 5. What events or organizations can I involve myself in?
@@ -186,6 +190,8 @@ dealing with them effectively.
   find a solution that meets your minimum criteria, immediately go for it. 
   optimizing will only leave you wanting what you don't have.
 - surround yourself with honest and passionate people.
+- knowledge is like velcro - install lots of “hooks” for new information to stick to, 
+  and to allow associations to happen. be curious. read widely, outside your comfort zone.
 
 ## Professional Life
 
@@ -194,7 +200,7 @@ Under construction.
 ## Miscellaneous
 
 - 80% of the work is accomplished in 20% of the time
-- Statistically, the best time to settle down is after you have met 40% of 
+- statistically, the best time to settle down is after you have met 40% of 
   your lifetime partners. If you want to settle down in 10 years, date and
   reject people for the first 4 years, then pick the next person who is better 
   than all the previous partners. ie. get rejected, *it's good for you.*
