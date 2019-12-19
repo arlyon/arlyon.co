@@ -1,7 +1,7 @@
 baseURL = "https://blog.arlyon.dev/"
 languageCode = "en-us"
 language = "en"
-title = "Alexander Lyon's Blog"
+title = "Alex's Thoughts"
 author = "Alexander Lyon"
 
 # Theme Settings
@@ -23,22 +23,33 @@ pygmentsCodeFences = true
     service_worker = false
     show_contact_in_head = false
     show_contact_in_footer = true
-    fontawesome_sets = ["brands"]
-    copyright = "no monkeys (or typewriters) were harmed in the making of this site"
-
+    fontawesome_kit = "fd8ad81501"
+    copyright = "alexander lyon © no monkeys (or typewriters) were harmed in the making of this site"
     foreground = "#000"
 
 [[params.contact]]
     icon_type = "fab"
     icon_name = "github"
     link = "https://www.github.com/arlyon/"
-    text = "GH"
+    text = "github"
 
 [[params.contact]]
     icon_type = "fab"
-    icon_name = "twitter"
-    link = "https://www.twitter.com/_arlyon/"
-    text = "TW"
+    icon_name = "gitlab"
+    link = "https://www.gitlab.com/arlyon/"
+    text = "gitlab"
+
+[[params.contact]]
+    icon_type = "fab"
+    icon_name = "reddit"
+    link = "https://www.reddit.com/u/alexthelyon/"
+    text = "reddit"
+
+[[params.contact]]
+    icon_type = "fas"
+    icon_name = "file-certificate"
+    link = "https://www.reddit.com/u/alexthelyon/"
+    text = "cv"
 
 [outputs]
     home = [ "HTML", "RSS", "HEADERS" ]
