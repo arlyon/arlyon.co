@@ -1,5 +1,5 @@
 ---
-title: "Composing Serializers With Drf"
+title: "Composing Serializers With DRF"
 date: 2018-04-01T12:17:09+01:00
 draft: false
 tags: ["gist", "code", "python", "drf"]

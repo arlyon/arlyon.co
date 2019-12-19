@@ -8,13 +8,8 @@ tags: []
 I define success as a human being as having a set of well-grounded invariants,
 always doing your best to strive for them, but continuously challenging them.
 A successful human being will fight to defend their invariants with all the
-energy they until have the precise moment they are presented with a better
+energy they have until the precise moment they are presented with a better
 alternative.
-
-> Right now my main focuses are dating and relationships. Not falling in love,
-  but understanding what attraction is and learning about it. Having always 
-  had a stable relationship, I've never had that kind of emotional stress, 
-  and I think it will be good for me.
   
 This page has some core tenets, followed by a number of invariants that go
 into more detail in all aspects of life. The 10 core invariants are the most 
@@ -52,8 +47,8 @@ The core values are the main loop of a human being. They embody what a strong
 and healthy human should always have (consciously or sub-consciously) in the
 back of their mind. They are to be read every day.
 
-**Be Present.** Look around. Appreciate what is around you. Complement her on
-her necklace. Stop to watch the cat. Notice the architecture. [Favour observations 
+**Be Present.** Look around. Appreciate what is around you. Notice the architecture.
+Complement her on her necklace. Stop to watch the cat. [Favour observations 
 over perceptions](https://www.diplateevo.com/perception-vs-observation/). 
 Escape from reality is a bad thing.
 
@@ -62,7 +57,8 @@ but refusing to learn from them is irreparable. Favour rapid trial and error.
 Discomfort yields evolution. Avoid people with an aversion to change.
 
 **Take Responsibility.** Excuses suspend disbelief and leads you into a
-false sense of security. Alex you fall for this too much.
+false sense of security. Spinning up elaborate explanations retroactively in 
+your head is never a good sign.
 
 **Practice Humility.** You are not the best. At anything. Seek out those who
 are. Find people that understand and counter your weaknesses. Have them be 
@@ -116,7 +112,7 @@ relationships are built on respect, attraction, or both.
   - laugh, and make people laugh
   - open up your vulnerabilities
 - be physical:
-  - touch people
+  - interact with people
   - take up space
   - move around
 - be unapologetically enthusiastic about your passions.
@@ -125,43 +121,18 @@ relationships are built on respect, attraction, or both.
 ### Building Attraction
 
 - be genuine. do not compromise who you are. if you are having fun, people will come.
-- do not try to impress. qualify her. set standards, stick to them.
-- women are receptive, neutral, or unreceptive. you'll never sway the unreceptive.
-- friction describes how easy it is to make women receptive. women with vastly
-differing interests, lifestyle, and values are remarkably harder to attract. 
-Alex, friction ended your last (7 year) relationship.
-- understand abundance. there is always a bigger fish.
-- only approach women you find attractive. anything else is needy.
+- do not try to impress. set standards, stick to them.
+- people are receptive, neutral, or unreceptive. you'll never sway the unreceptive.
+- friction describes how easy it is to make people receptive. people with vastly
+differing interests, lifestyle, and values are remarkably harder to attract.
+- understand abundance. there is always another fish.
 - approach immediately. the longer you wait the harder it is.
 - alcohol is a crutch.
 - strike while the iron is hot.
-- treat women like humans. attractive women get placed on a pedestal.
+- attractive people get placed on a pedestal, just treat them normally.
 - rejection is good for you. eventually rejection will mean nothing.
 
-### Dating
-
-Find the right woman:
-
-1. Uninstall tinder.
-2. What values do I want in a woman? What traits do I rate highly? What deal-breakers do I have?
-3. Where can I meet women similar to the ones I like?
-4. What do I enjoy doing the most?
-5. What events or organizations can I involve myself in?
-
-~~Date~~ Polarize them: (work in progress)
-
-- interactive activities. no cinema.
-- set the context early. you are potential sexual partners. treat her like one.
-- pursue genuine connection, not sex. intimacy is a result of connection (or promise of connection).
-- keep it modestly priced, respectfully bail if needed.
-- talk as little about yourself as possible. Alex you're shit at this.
-- cold read. avoid interrogation by making assumptions.
-- make the decisions. be in control of the plan. lead the girl.
-- split date up into multiple parts. plan it out. have backups available.
-- build (or maintain) sexual tension. Alex, this one may take some time, because after so many
-  years it doesn't even occur to you.
-
-### Love
+### Building Relationships
 
 - put things behind you. when we 'drop something', make sure it's done, or it 
   will pile up and there is no recovery. small problems that linger _will_ grow.
@@ -192,15 +163,8 @@ dealing with them effectively.
 - surround yourself with honest and passionate people.
 - knowledge is like velcro - install lots of “hooks” for new information to stick to, 
   and to allow associations to happen. be curious. read widely, outside your comfort zone.
+- take as many risks as possible, but only the ones you know you can handle
 
 ## Professional Life
 
-Under construction.
-
-## Miscellaneous
-
-- 80% of the work is accomplished in 20% of the time
-- statistically, the best time to settle down is after you have met 40% of 
-  your lifetime partners. If you want to settle down in 10 years, date and
-  reject people for the first 4 years, then pick the next person who is better 
-  than all the previous partners. ie. get rejected, *it's good for you.*
+*Under construction.*
