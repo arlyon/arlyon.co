@@ -1,4 +1,4 @@
-\.idea/
+resources/
 public/
-\.DS_Store
-\.todos\.json
+.DS_Store
+
