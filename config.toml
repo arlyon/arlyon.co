@@ -48,7 +48,7 @@ pygmentsCodeFences = true
 [[params.contact]]
     icon_type = "fas"
     icon_name = "file-certificate"
-    link = "https://www.reddit.com/u/alexthelyon/"
+    link = "https://cv.arlyon.dev/"
     text = "cv"
 
 [outputs]
