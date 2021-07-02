@@ -1,7 +1,7 @@
 ---
 title: "Principles"
 date: 2019-07-16T18:34:19+01:00
-draft: false
+draft: true
 tags: []
 ---
 
